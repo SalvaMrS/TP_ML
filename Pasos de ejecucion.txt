@@ -1,0 +1,17 @@
+Abrir la terminal del proyecto y ejecutar los siguientes comandos:
+
+> py -3.7 -m venv ML
+
+Si ocurre algun error en esta linea se deberá instalar python 3.7 en tu computadora
+
+
+> .\ML\Scripts\activate 
+
+> pip install -r requirements.txt
+
+> python .\app.py 
+
+
+Una vez ejecutado todo correctamente entrar a la pagina http://127.0.0.1:8050/
+
+Dentro de ella seleccionar el día y la ciudad y obtendrá las predicciones realizadas con el modelo.
